@@ -1,0 +1,41 @@
+{
+  "name": "uclean",
+  "version": "0.1.0",
+  "description": "Free Mac disk space with fast local scans, confirmed cache cleanup, and progressively deeper discovery.",
+  "author": {
+    "name": "Neonbe",
+    "url": "https://github.com/Neonbe"
+  },
+  "homepage": "https://github.com/Neonbe/uclean-plugin",
+  "repository": "https://github.com/Neonbe/uclean-plugin",
+  "license": "MIT",
+  "keywords": [
+    "macos",
+    "disk-cleanup",
+    "storage",
+    "developer-tools"
+  ],
+  "skills": "./skills/",
+  "requires_local_executor": true,
+  "interface": {
+    "displayName": "UClean",
+    "shortDescription": "Free Mac disk space, one clear step at a time",
+    "longDescription": "Fast local cache checks, exact cleanup previews, and progressively deeper disk discovery. macOS and Python 3.10+. No telemetry or cloud API.",
+    "developerName": "Neonbe",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/Neonbe/uclean-plugin",
+    "privacyPolicyURL": "https://github.com/Neonbe/uclean-plugin/blob/main/PRIVACY.md",
+    "termsOfServiceURL": "https://github.com/Neonbe/uclean-plugin/blob/main/TERMS.md",
+    "defaultPrompt": [
+      "磁盘空间不足，帮我释放空间",
+      "清理后空间还不够，继续深度查找"
+    ],
+    "brandColor": "#225ddd",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg"
+  }
+}

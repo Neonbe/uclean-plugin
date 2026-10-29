@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>UClean · 让工作继续</title><link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div class="shell">
+    <header><a class="brand" href="/" aria-label="UClean"><span class="mark">u</span>UClean<span class="local">仅在本机运行</span></a><span class="version">MAC / 0.1</span></header>
+    <main>
+      <div class="route" aria-label="清理进度"><span data-stage="quick">快速释放</span><i></i><span data-stage="recommended">继续清理</span><i></i><span data-stage="deep">深度查找</span></div>
+      <section class="intro" aria-labelledby="heading"><p class="eyebrow" id="eyebrow">让工作继续</p><h1 id="heading">空间不够？<br>先从能放心清理的开始。</h1><p id="description">先找可重新下载的缓存，再按需深入。每一步都知道会清理什么。</p></section>
+      <section class="meter" id="meter" hidden><div><span>当前可用</span><strong id="available">—</strong></div><div class="disk-track" aria-hidden="true"><div id="disk-used"></div><div id="disk-reclaim"></div></div><span id="disk-total"></span></section>
+      <div id="notice" role="status" aria-live="polite"></div>
+      <div id="error" role="alert" hidden></div>
+      <section id="content"></section>
+      <div class="controls" id="controls"><label>希望至少留出 <select id="target"><option value="10">10 GB</option><option value="20">20 GB</option><option value="50">50 GB</option><option value="100">100 GB</option></select> 可用空间</label></div>
+      <div class="actions" id="actions"></div>
+      <p class="footnote" id="footnote">只读扫描，不读取文件内容。删除前会显示完整范围。</p>
+    </main>
+    <footer><span>不上传文件 · 无遥测 · 无需 AI API</span><span id="timing">macOS 本地清理</span></footer>
+  </div><script src="/app.js"></script>
+</body></html>

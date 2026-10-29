@@ -1,0 +1,20 @@
+{
+  "name": "uclean-marketplace",
+  "interface": {
+    "displayName": "UClean"
+  },
+  "plugins": [
+    {
+      "name": "uclean",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

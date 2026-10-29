@@ -1,0 +1,19 @@
+{
+  "name": "uclean",
+  "version": "0.1.0",
+  "description": "Free Mac disk space with fast local scans, confirmed cache cleanup, and progressively deeper discovery.",
+  "author": {
+    "name": "Neonbe",
+    "url": "https://github.com/Neonbe"
+  },
+  "homepage": "https://github.com/Neonbe/uclean-plugin",
+  "repository": "https://github.com/Neonbe/uclean-plugin",
+  "license": "MIT",
+  "keywords": [
+    "macos",
+    "disk-cleanup",
+    "storage",
+    "developer-tools"
+  ],
+  "skills": "./skills/"
+}

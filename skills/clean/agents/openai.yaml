@@ -1,0 +1,4 @@
+interface:
+  display_name: "UClean"
+  short_description: "Free Mac disk space with progressive, confirmed cleanup"
+  default_prompt: "Use $clean to find space on my Mac, clean a confirmed cache plan, and keep looking if space is still low."

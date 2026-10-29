@@ -1,0 +1,17 @@
+{
+  "name": "uclean-marketplace",
+  "owner": {
+    "name": "Neonbe"
+  },
+  "metadata": {
+    "description": "Local Mac disk cleanup for AI coding workflows"
+  },
+  "plugins": [
+    {
+      "name": "uclean",
+      "source": "./",
+      "description": "Free Mac disk space with fast local scans, confirmed cache cleanup, and progressively deeper discovery.",
+      "version": "0.1.0"
+    }
+  ]
+}
